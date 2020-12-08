@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/base-react-landing/static/css/main.1f8aa3b6.chunk.css",
+    "main.css": "/base-react-landing/static/css/main.cd5491b3.chunk.css",
     "main.js": "/base-react-landing/static/js/main.88152cc3.chunk.js",
     "main.js.map": "/base-react-landing/static/js/main.88152cc3.chunk.js.map",
     "runtime-main.js": "/base-react-landing/static/js/runtime-main.a1142118.js",
@@ -8,7 +8,7 @@
     "static/js/2.06592ad8.chunk.js": "/base-react-landing/static/js/2.06592ad8.chunk.js",
     "static/js/2.06592ad8.chunk.js.map": "/base-react-landing/static/js/2.06592ad8.chunk.js.map",
     "index.html": "/base-react-landing/index.html",
-    "static/css/main.1f8aa3b6.chunk.css.map": "/base-react-landing/static/css/main.1f8aa3b6.chunk.css.map",
+    "static/css/main.cd5491b3.chunk.css.map": "/base-react-landing/static/css/main.cd5491b3.chunk.css.map",
     "static/js/2.06592ad8.chunk.js.LICENSE.txt": "/base-react-landing/static/js/2.06592ad8.chunk.js.LICENSE.txt",
     "static/media/bxl-facebook.1940917e.svg": "/base-react-landing/static/media/bxl-facebook.1940917e.svg",
     "static/media/bxl-linkedin.516cb587.svg": "/base-react-landing/static/media/bxl-linkedin.516cb587.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1142118.js",
     "static/js/2.06592ad8.chunk.js",
-    "static/css/main.1f8aa3b6.chunk.css",
+    "static/css/main.cd5491b3.chunk.css",
     "static/js/main.88152cc3.chunk.js"
   ]
 }
