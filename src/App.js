@@ -4,6 +4,9 @@ import "./App.scss";
 import Masthead from "components/Masthead";
 import OgpFooter from "components/OgpFooter";
 
+import ProductHeader from "components/ProductHeader";
+import ProductFooter from "components/ProductFooter";
+
 import {
   HashRouter,
   BrowserRouter,
@@ -29,6 +32,7 @@ class App extends Component {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Masthead />
+        <ProductHeader />
         <div className="box">
           <nav>
             <ul>
@@ -58,6 +62,7 @@ class App extends Component {
             </Route>
           </Switch>
         </div>
+        <ProductFooter />
         <OgpFooter />
       </HashRouter>
     );
