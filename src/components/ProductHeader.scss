@@ -1,7 +1,13 @@
+@import "styles/partials/menu";
+
 .product-header-container {
   padding-top: 2em;
   padding-bottom: 2em;
   .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
     .product-logo {
       margin: 0;
       padding: 0;
@@ -11,60 +17,17 @@
     }
   }
   .header-right {
-    nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      margin-top: 1em;
-
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-
-        li {
-          padding: 0px;
-
-          a {
-            color: black;
-
-            &.active {
-              text-decoration: underline;
-              background: #eee;
-            }
-          }
-        }
-      }
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .product-header-container {
     .header-right {
-      nav {
-        justify-content: flex-end;
-        margin-top: 0;
-
-        ul {
-          flex-direction: row;
-
-          li {
-            padding: 0px 1.5em;
-
-            &:last-child {
-              padding-right: 0;
-            }
-
-            &:last-child {
-              padding-right: 0;
-            }
-          }
-        }
-      }
+      justify-content: center;
+      align-items: center;
     }
   }
 }
