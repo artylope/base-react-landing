@@ -1,6 +1,6 @@
 - add react
 - base routing
-- has masthead, product header, product footer, ogp footer 
+- has masthead, product header, product footer, ogp footer
 - mobile menu
 - bootstrap grid
 - reference files from main folder structure
