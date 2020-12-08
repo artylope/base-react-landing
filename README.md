@@ -9,5 +9,5 @@
 - placeholders
 - has index
 - has base layouts
-- has base icons, base buttons
+- has base box icons, base buttons
 - has faq
