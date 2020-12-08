@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/base-react-landing/static/css/main.db478c97.chunk.css",
-    "main.js": "/base-react-landing/static/js/main.8741aac5.chunk.js",
-    "main.js.map": "/base-react-landing/static/js/main.8741aac5.chunk.js.map",
-    "runtime-main.js": "/base-react-landing/static/js/runtime-main.42c19079.js",
-    "runtime-main.js.map": "/base-react-landing/static/js/runtime-main.42c19079.js.map",
-    "static/js/2.68604739.chunk.js": "/base-react-landing/static/js/2.68604739.chunk.js",
-    "static/js/2.68604739.chunk.js.map": "/base-react-landing/static/js/2.68604739.chunk.js.map",
-    "static/js/3.5b88132a.chunk.js": "/base-react-landing/static/js/3.5b88132a.chunk.js",
-    "static/js/3.5b88132a.chunk.js.map": "/base-react-landing/static/js/3.5b88132a.chunk.js.map",
+    "main.css": "/base-react-landing/static/css/main.9bb273f7.chunk.css",
+    "main.js": "/base-react-landing/static/js/main.9c4da2b3.chunk.js",
+    "main.js.map": "/base-react-landing/static/js/main.9c4da2b3.chunk.js.map",
+    "runtime-main.js": "/base-react-landing/static/js/runtime-main.a1142118.js",
+    "runtime-main.js.map": "/base-react-landing/static/js/runtime-main.a1142118.js.map",
+    "static/js/2.1a6d1ea2.chunk.js": "/base-react-landing/static/js/2.1a6d1ea2.chunk.js",
+    "static/js/2.1a6d1ea2.chunk.js.map": "/base-react-landing/static/js/2.1a6d1ea2.chunk.js.map",
     "index.html": "/base-react-landing/index.html",
-    "static/css/main.db478c97.chunk.css.map": "/base-react-landing/static/css/main.db478c97.chunk.css.map",
-    "static/js/2.68604739.chunk.js.LICENSE.txt": "/base-react-landing/static/js/2.68604739.chunk.js.LICENSE.txt"
+    "static/css/main.9bb273f7.chunk.css.map": "/base-react-landing/static/css/main.9bb273f7.chunk.css.map",
+    "static/js/2.1a6d1ea2.chunk.js.LICENSE.txt": "/base-react-landing/static/js/2.1a6d1ea2.chunk.js.LICENSE.txt",
+    "static/media/bxl-facebook.1940917e.svg": "/base-react-landing/static/media/bxl-facebook.1940917e.svg",
+    "static/media/bxl-linkedin.516cb587.svg": "/base-react-landing/static/media/bxl-linkedin.516cb587.svg",
+    "static/media/logo.b039fa6e.svg": "/base-react-landing/static/media/logo.b039fa6e.svg",
+    "static/media/ogp-logo-mark-white.371dbfae.svg": "/base-react-landing/static/media/ogp-logo-mark-white.371dbfae.svg",
+    "static/media/ogp-logo.bc777731.svg": "/base-react-landing/static/media/ogp-logo.bc777731.svg",
+    "static/media/sg-crest.24ba62e1.svg": "/base-react-landing/static/media/sg-crest.24ba62e1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.42c19079.js",
-    "static/js/2.68604739.chunk.js",
-    "static/css/main.db478c97.chunk.css",
-    "static/js/main.8741aac5.chunk.js"
+    "static/js/runtime-main.a1142118.js",
+    "static/js/2.1a6d1ea2.chunk.js",
+    "static/css/main.9bb273f7.chunk.css",
+    "static/js/main.9c4da2b3.chunk.js"
   ]
 }
