@@ -10,3 +10,4 @@
 - has index
 - has base layouts
 - has base icons, base buttons
+- has faq
