@@ -3,6 +3,7 @@ $hamburger-color: rgba(30, 30, 30, 1);
 $overlay-color: rgba(255, 255, 255, 1);
 $hover-color: rgba(240, 240, 240, 1);
 $selected-color: rgba(220, 220, 220, 1);
+$link-underline-color: #eceff3;
 
 .menu-container {
   z-index: 1;
@@ -143,15 +144,36 @@ $selected-color: rgba(220, 220, 220, 1);
               color: black;
               font-size: 1.5em;
               padding: 0.3em 0.5em;
+              position: relative;
 
-              &:hover {
-                background: $hover-color;
+              &::after {
+                content: "";
+                background: $link-underline-color;
+                position: absolute;
+                bottom: 0.1em;
+                left: 0;
+                width: 100%;
+                height: calc(100% - 0.8em);
+                z-index: -1;
+                transition: 0.05s cubic-bezier(0.25, 0.1, 0, 2.05);
+                border-radius: 3px;
               }
 
-              &.active {
-                // text-decoration: underline;
-                background: $selected-color;
+              &:hover:after {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
               }
+
+              // &:hover {
+              //   background: $hover-color;
+              // }
+
+              // &.active {
+              //   // text-decoration: underline;
+              //   background: $selected-color;
+              // }
             }
           }
         }
