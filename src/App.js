@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.scss";
 
+import Masthead from "components/Masthead";
+
 import {
   HashRouter,
   BrowserRouter,
@@ -25,6 +27,7 @@ class App extends Component {
 
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
+        <Masthead />
         <div className="box">
           <nav>
             <ul>
