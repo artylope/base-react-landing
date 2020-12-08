@@ -25,7 +25,7 @@ class App extends Component {
 
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
-        <div>
+        <div className="box">
           <nav>
             <ul>
               <li>
