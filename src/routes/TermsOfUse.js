@@ -40,7 +40,7 @@ class TermsOfUse extends Component {
                         or as a website or otherwise), its contents, push
                         notifications and all other accompanying materials as
                         identified in the Schedule below (collectively, the
-                        <strong>"Service”</strong>).
+                        <strong>&nbsp;"Service”</strong>).
                       </div>
                     </div>
 
@@ -301,7 +301,7 @@ class TermsOfUse extends Component {
                         <strong>
                           It is your responsibility to check and read the most
                           up-to-date versions of these Third Party Terms and you
-                          are deemed to have notice of the same.
+                          are deemed to have notice of the same.&nbsp;
                         </strong>
                         In particular, you are deemed to have notice of the
                         Third Party Terms that GovTech (under the Third Party
@@ -993,7 +993,7 @@ class TermsOfUse extends Component {
                       <div className="clause-numbering">d.</div>
 
                       <div className="clause-text">
-                        GovTech <strong>DOES NOT</strong>handle any payment to
+                        GovTech <strong>DOES NOT </strong>handle any payment to
                         or accept refunds from merchants for vouchers used at
                         their stores. It is not responsible for accounting,
                         financial reporting, financial reconciliation, financial
