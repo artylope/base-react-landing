@@ -146,24 +146,27 @@ $link-underline-color: #eceff3;
               padding: 0.3em 0.5em;
               position: relative;
 
-              &::after {
-                content: "";
-                background: $link-underline-color;
-                position: absolute;
-                bottom: 0.1em;
-                left: 0;
-                width: 100%;
-                height: calc(100% - 0.8em);
-                z-index: -1;
-                transition: 0.05s cubic-bezier(0.25, 0.1, 0, 2.05);
-                border-radius: 3px;
-              }
+              &.active,
+              &:hover {
+                &::after {
+                  content: "";
+                  background: $link-underline-color;
+                  position: absolute;
+                  bottom: 0.1em;
+                  left: 0;
+                  width: 100%;
+                  height: calc(100% - 0.8em);
+                  z-index: -1;
+                  transition: 0.05s cubic-bezier(0.25, 0.1, 0, 2.05);
+                  border-radius: 3px;
+                }
 
-              &:hover:after {
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                height: 100%;
+                &:hover:after {
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  height: 100%;
+                }
               }
 
               // &:hover {
