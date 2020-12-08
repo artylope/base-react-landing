@@ -1,12 +1,11 @@
 $menu-speed: 0.75s;
 $hamburger-color: rgba(30, 30, 30, 1);
-$overlay-color: rgba(255, 255, 255, 0.9);
+$overlay-color: rgba(255, 255, 255, 1);
 $hover-color: rgba(240, 240, 240, 1);
 $selected-color: rgba(220, 220, 220, 1);
 
 .menu-container {
   z-index: 1;
-
   .menu-toggle {
     position: absolute;
     top: -60px;
@@ -20,6 +19,7 @@ $selected-color: rgba(220, 220, 220, 1);
 
     //rotate when checked
     &:checked + .menu-icon-hamburger {
+      // top: -90px;
       > div {
         transform: rotate(45deg);
 
