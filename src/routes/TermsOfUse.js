@@ -5,7 +5,7 @@ import "./TermsOfUse.scss";
 class TermsOfUse extends Component {
   render() {
     return (
-      <div className="terms-of-use-page-container">
+      <section className="terms-of-use-page-container">
         <div className="legal-header-container">
           <div className="container">
             <div className="row">
@@ -956,7 +956,7 @@ class TermsOfUse extends Component {
                       <div className="clause-numbering">b.</div>
 
                       <div className="clause-text">
-                        GovTech <strong>DOES NOT</strong> manage and is
+                        GovTech <strong>DOES NOT</strong> manage and is &nbsp;
                         <strong>NOT</strong> responsible for the fulfilment and
                         quality of the operations involved in redemption of the
                         Items. As such, it is not responsible for ensuring
@@ -1132,7 +1132,7 @@ class TermsOfUse extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
