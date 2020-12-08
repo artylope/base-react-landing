@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.scss";
 
 import Masthead from "components/Masthead";
+import OgpFooter from "components/OgpFooter";
 
 import {
   HashRouter,
@@ -57,6 +58,7 @@ class App extends Component {
             </Route>
           </Switch>
         </div>
+        <OgpFooter />
       </HashRouter>
     );
   }
