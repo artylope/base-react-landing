@@ -36,7 +36,7 @@ class App extends Component {
           <Route path="/privacy">
             <Privacy />
           </Route>
-          <Route path="/tou">
+          <Route path="/terms-of-use">
             <Tou />
           </Route>
           <Route path="/">

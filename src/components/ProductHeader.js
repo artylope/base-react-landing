@@ -30,12 +30,12 @@ class ProductHeader extends Component {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/tou" activeClassName="active">
+                    <NavLink to="/terms-of-use" activeClassName="active">
                       Terms of Use
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="mailto:test@email.com">Contact Us</NavLink>
+                    <a href="mailto:test@email.com">Contact Us</a>
                   </li>
                 </ul>
               </nav>

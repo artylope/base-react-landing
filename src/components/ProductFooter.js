@@ -17,16 +17,16 @@ class ProductFooter extends Component {
               <nav>
                 <ul>
                   <li>
-                    <Link to="">FAQ</Link>
+                    <Link to="/faq">FAQ</Link>
                   </li>
                   <li>
-                    <Link to="">Privacy Policy</Link>
+                    <Link to="/privacy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link to="">Terms of Use</Link>
+                    <Link to="/terms-of-use">Terms of Use</Link>
                   </li>
                   <li>
-                    <Link to="">Contact Us</Link>
+                    <a href="mailto:test@email.com">Contact Us</a>
                   </li>
                 </ul>
               </nav>
