@@ -17,7 +17,7 @@ import {
 
 import Home from "routes/Home";
 import Faq from "routes/Faq";
-import Tou from "routes/Tou";
+import TermsOfUse from "routes/TermsOfUse";
 import Privacy from "routes/Privacy";
 
 class App extends Component {
@@ -37,7 +37,7 @@ class App extends Component {
             <Privacy />
           </Route>
           <Route path="/terms-of-use">
-            <Tou />
+            <TermsOfUse />
           </Route>
           <Route path="/">
             <Home />
