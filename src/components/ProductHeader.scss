@@ -29,10 +29,11 @@
           padding: 0px;
 
           a {
-            color: red;
+            color: black;
 
             &.active {
               text-decoration: underline;
+              background: #eee;
             }
           }
         }
@@ -60,10 +61,6 @@
 
             &:last-child {
               padding-right: 0;
-            }
-
-            a {
-              color: red;
             }
           }
         }

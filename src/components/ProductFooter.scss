@@ -1,5 +1,5 @@
-$product-footer-background: #0d3851;
-$product-footer-color: white;
+$product-footer-background: white;
+$product-footer-color: black;
 
 .product-footer-container {
   padding-top: 4em;
@@ -17,8 +17,8 @@ $product-footer-color: white;
     .tagline {
       margin: 0;
       margin-top: 0.1em;
-      font-size: 0.9em;
-      color: white;
+      font-size: 1em;
+      color: $product-footer-color;
     }
 
     margin-bottom: 2em;
@@ -39,8 +39,8 @@ $product-footer-color: white;
 
       li {
         a {
-          font-size: 0.9em;
-          color: white;
+          font-size: 1em;
+          color: $product-footer-color;
         }
       }
     }

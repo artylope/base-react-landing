@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./ProductFooter.scss";
-import productLogo from "img/logo-white.svg";
+import productLogo from "img/logo.svg";
 
 class ProductFooter extends Component {
   render() {
