@@ -8,8 +8,8 @@ $ogp-grey: #eeeeee;
 .ogp-footer-container {
   background: $ogp-black;
   width: 100%;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   .footer-left {
     p {
@@ -80,6 +80,8 @@ $ogp-grey: #eeeeee;
 
 @media screen and (min-width: 760px) {
   .ogp-footer-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
     .footer-left {
       margin-bottom: 1em;
     }
