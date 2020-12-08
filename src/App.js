@@ -30,6 +30,12 @@ class App extends Component {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+          <Route path="/index-merchant">
+            <h1>merchant</h1>
+          </Route>
+          <Route path="/index-agency">
+            <h1>admins</h1>
+          </Route>
           <Route path="/faq">
             <Faq />
           </Route>

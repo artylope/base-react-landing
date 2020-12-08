@@ -17,6 +17,12 @@ class ProductFooter extends Component {
               <nav>
                 <ul>
                   <li>
+                    <Link to="/index-agency">For Campaign Organisers</Link>
+                  </li>
+                  <li>
+                    <Link to="/index-merchant">For Merchants</Link>
+                  </li>
+                  <li>
                     <Link to="/faq">FAQ</Link>
                   </li>
                   <li>
