@@ -12,6 +12,97 @@ class Home extends Component {
               <h1>Home</h1>
             </div>
           </div>
+          <div className="row">
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+            <div className="col-1">
+              <div className="red">d</div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+            <div className="col-2">
+              <div className="red">d</div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <div className="red">d</div>
+            </div>
+            <div className="col-3">
+              <div className="red">d</div>
+            </div>
+            <div className="col-3">
+              <div className="red">d</div>
+            </div>
+            <div className="col-3">
+              <div className="red">d</div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <div className="red">d</div>
+            </div>
+            <div className="col-4">
+              <div className="red">d</div>
+            </div>
+            <div className="col-4">
+              <div className="red">d</div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="red">d</div>
+            </div>
+            <div className="col-6">
+              <div className="red">d</div>
+            </div>
+          </div>
         </div>
       </div>
     );
