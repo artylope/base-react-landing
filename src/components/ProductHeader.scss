@@ -1,6 +1,7 @@
 @import "styles/partials/menu";
 
 .product-header-container {
+  padding-top: 1em;
   .header-left {
     display: flex;
     justify-content: flex-start;
@@ -15,7 +16,7 @@
         margin: 0;
         padding: 0;
         img {
-          width: 140px;
+          width: 180px;
         }
       }
     }
