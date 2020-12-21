@@ -17,14 +17,14 @@ class ProductHeader extends Component {
       <div className="product-header-container">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 header-left">
+            <div className="col-sm-12 col-md-12 col-lg-1 header-left">
               <div className="product-logo">
                 <Link to="/">
                   <img src={productLogo} />
                 </Link>
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 header-right">
+            <div className="col-sm-12 col-md-12 col-lg-11 header-right">
               <div className="menu-container">
                 <input
                   type="checkbox"
