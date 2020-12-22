@@ -45,7 +45,7 @@ class ProductHeader extends Component {
 
                 <div className="menu-content">
                   <div className="overlay">
-                    <nav>
+                    <nav className="container">
                       <ul>
                         <li>
                           <NavLink
