@@ -19,6 +19,12 @@ class Faq extends Component {
         <div className="faq-body container">
           <div className="row">
             <div className="col-12">
+              <section className="faq-note">
+                <p>
+                  For a more complete set of FAQs on the programme, please refer
+                  to the CFHP FAQs
+                </p>
+              </section>
               <section className="faq-group">
                 <h3>FAQ Group Title</h3>
                 <div className="all-questions">
